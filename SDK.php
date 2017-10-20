@@ -9,22 +9,22 @@
 abstract class SDK
 {
 
-    protected $APPID = '1254379720';
-    //API鉴权key
-    protected $API_KEY = '94521339e64a053b8261e17cb6d89372';
-    //推流防盗链key
-    protected $PUSH_KEY = 'c9d8744b8636523b3a52dcfdac1bf068';
-    //腾讯云分配bizid
-    protected $BIZID = '11512';
-    //接口url
+    protected $APPID = '';
+    //API閴存潈key
+    protected $API_KEY = '';
+    //鎺ㄦ祦闃茬洍閾緆ey
+    protected $PUSH_KEY = '';
+    //鑵捐浜戝垎閰峛izid
+    protected $BIZID = '';
+    //鎺ュ彛url
     protected $url;
-    //接口
+    //鎺ュ彛
     protected $interface;
 
     protected $time;
 
     /**
-     * 获取签名
+     * 鑾峰彇绛惧悕
      * @return string
      */
     protected function getSign()
